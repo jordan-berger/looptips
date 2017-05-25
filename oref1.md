@@ -19,12 +19,15 @@ rm -rf myopenaps
 
 4. Then run the setup script
 
+**NOTE:**  Answer all the setup script questions like normal...but DO NOT say yes to actually install it.  When it spits out the "To run again with these same options, use:"...simply answer NO, and instead copy and paste that line in to the terminal prompt...you're going to edit it to add word microbolus to the "enable" area of that string....and THEN press enter to run the setup script.
+
 `cd && ~/src/oref0/bin/oref0-setup.sh`
 
-**NOTE:**  Answer all the setup script questions like normal...but DO NOT say yes to actually install it.  When it spits out the "To run again with these same options, use:"...simply say No to the continue question, and instead copy and paste that line in to the terminal prompt...you're going to edit it to add word microbolus to the "enable" area of that string....and THEN press enter to run the setup script.
 
-5. Once everything gets installed and you answer yes to both of the cron questions, then we will edit your preferences.json
+5. Once everything gets installed and you answer YES to both of the cron questions, then we will edit your preferences.json
 
 `edit-pref`
+
+SMBs and UAM are the last lines in your new preferences.
 
 Congrats, your loop is updated to oref1.
