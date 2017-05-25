@@ -2,9 +2,11 @@
 
 1. First let's remove the oref0 source code and your existing loop directories
 
-`cd`
-`rm -rf src`
-`rm -rf myopenaps`
+```
+cd
+rm -rf src
+rm -rf myopenaps
+```
 
 2. Next let's install dependencies again for good measure
 
