@@ -2,12 +2,13 @@
 
 The current version of oref1 in the dev branch does not offer prompts for microbolus or pushover options.  It also doesn't save the pushover information for your runagain file.  I have edited a version of oref1 dev branch so that it offers prompts on the setup script and saves them to the runagain file.  I currently have a PR in for that...but it's not approved yet.  If you want to use my version...here's the directions:
 
-1. First let's remove the oref0 source code and your existing loop directories
+1. First let's remove the oref0 source code, your existing loop directories, and crontab
 
 ```
 cd
 rm -rf src
 rm -rf myopenaps
+crontab -r
 ```
 
 2. Next let's install dependencies again for good measure
