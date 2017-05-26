@@ -20,7 +20,7 @@ crontab -r
 
 `cd ~/src/oref0 && npm run global-install`
 
-4. Then run the setup script...but read those notes before finishing the script
+4. Then run the setup script...but read the note below before finishing the script
 
 `cd && ~/src/oref0/bin/oref0-setup.sh`
 
