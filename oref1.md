@@ -1,6 +1,6 @@
 **How to update to oref1**
 
-1. First let's remove the oref0 source code, your existing loop directories, and crontab ((skip this step if you have a brand new rig and this is the first loop you're installing on it)
+1. First let's remove the oref0 source code, your existing loop directories, and crontab (skip this step if you have a brand new rig and this is the first loop you're installing on it)
 
 ```
 cd
