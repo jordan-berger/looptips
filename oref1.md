@@ -26,7 +26,7 @@ crontab -r
 `cd && ~/src/oref0/bin/oref0-setup.sh --btmac=AA:BB:CC:DD:EE:FF`  (replacing the btmac address with your phone's BT MAC)
 
 
-**NOTE:**  Answer all the setup script questions like normal...but DO NOT say yes to actually install it.  When it spits out the "To run again with these same options, use:"...simply answer NO, and instead copy and paste that line in to the terminal prompt...
+**NOTE:**  Answer all the setup script questions like normal...but DO NOT say yes to actually install it.  When it spits out the "To run again with these same options, use:"...simply answer NO, and instead copy and paste that line into the terminal prompt so you can edit it:
 
 *If you want to add SMB and UAM: you're going to edit it to add word `microbolus` to the "enable" area of that string.
 
