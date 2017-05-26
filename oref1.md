@@ -15,6 +15,8 @@ rm -rf myopenaps
 3. Then pull oref1 code and install
 
 `mkdir -p ~/src; cd ~/src && git clone -b dev git://github.com/openaps/oref0.git || (cd oref0 && git checkout dev && git pull)`
+
+
 `cd ~/src/oref0 && npm run global-install`
 
 4. Then run the setup script
