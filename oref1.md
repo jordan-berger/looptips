@@ -1,11 +1,12 @@
 **How to update to oref1**
 
-1. First let's remove the oref0 source code and your existing loop directories
+1. First let's remove the oref0 source code, your existing loop directories, and crontab
 
 ```
 cd
 rm -rf src
 rm -rf myopenaps
+crontab -r
 ```
 
 2. Next let's install dependencies again for good measure
