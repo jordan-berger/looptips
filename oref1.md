@@ -46,3 +46,10 @@ For example:  Your script line may look like this if you have both of the option
 SMBs and UAM are the last lines in your new preferences.
 
 Congrats, your loop is updated to oref1.
+
+
+**NOTE**
+
+A word of caution about using SMBs.  When the rig is actively trying to send an SMB command to the pump and it is bolusing that SMB, if you try to deliver a bolus using the pump's bolus wizard during that time (or vice versa)...you may cause the pump to have an error and it will need to restart itself and you will have to set the pump time/rewind.  Pump doesn't like getting two bolus commands at once.
+
+A couple of ideas on this...check to see if you are actively getting SMBs before you bolus, and wait for a time right after an SMB has been given so that you don't cross-bolus (SMBs only go every 5 minutes).  OR use the easy bolus feature in your pump so that you can bolus a little quicker and lessen your likelihood of causing that pump error.
