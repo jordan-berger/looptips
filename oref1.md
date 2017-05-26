@@ -1,6 +1,6 @@
 **How to update to oref1**
 
-1. First let's remove the oref0 source code, your existing loop directories, and crontab
+1. First let's remove the oref0 source code, your existing loop directories, and crontab ((skip this step if you have a brand new rig and this is the first loop you're installing on it)
 
 ```
 cd
@@ -9,7 +9,7 @@ rm -rf myopenaps
 crontab -r
 ```
 
-2. Next let's install dependencies again for good measure
+2. Next let's install dependencies 
 
 `curl -s https://raw.githubusercontent.com/openaps/docs/master/scripts/quick-packages.sh | bash -`
 
@@ -22,7 +22,9 @@ crontab -r
 
 4. Then run the setup script...but read the note below before finishing the script
 
-`cd && ~/src/oref0/bin/oref0-setup.sh`
+
+`cd && ~/src/oref0/bin/oref0-setup.sh --btmac=AA:BB:CC:DD:EE:FF`  (replacing the btmac address with your phone's BT MAC)
+
 
 **NOTE:**  Answer all the setup script questions like normal...but DO NOT say yes to actually install it.  When it spits out the "To run again with these same options, use:"...simply answer NO, and instead copy and paste that line in to the terminal prompt...
 
