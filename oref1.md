@@ -19,11 +19,17 @@ rm -rf myopenaps
 
 `cd ~/src/oref0 && npm run global-install`
 
-4. Then run the setup script
-
-**NOTE:**  Answer all the setup script questions like normal...but DO NOT say yes to actually install it.  When it spits out the "To run again with these same options, use:"...simply answer NO, and instead copy and paste that line in to the terminal prompt...you're going to edit it to add word microbolus to the "enable" area of that string....and THEN press enter to run the setup script.
+4. Then run the setup script...but read those notes before finishing the script
 
 `cd && ~/src/oref0/bin/oref0-setup.sh`
+
+**NOTE:**  Answer all the setup script questions like normal...but DO NOT say yes to actually install it.  When it spits out the "To run again with these same options, use:"...simply answer NO, and instead copy and paste that line in to the terminal prompt...
+
+*If you want to add SMB and UAM: you're going to edit it to add word `microbolus` to the "enable" area of that string.
+
+*If you want to add pushover alerts: you're going to have to add `--pushover_user=<your-pushover-user-key>` and `--pushover_token=<your-pushover-API-token>` replacing the bracketed infomation with your actual info.
+
+THEN press enter to run the script once you've edited it for the above items
 
 
 5. Once everything gets installed and you answer YES to both of the cron questions, then we will edit your preferences.json
