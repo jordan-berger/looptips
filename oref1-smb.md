@@ -15,7 +15,7 @@ crontab -r
 
 3. Then pull oref1 code (remainingCarbsFraction branch) and install
 
-`mkdir -p ~/src; cd ~/src && git clone -b remainingCarbsFraction git://github.com/openaps/oref0.git || (cd oref0 && git checkout remainingCarbsFraction && git pull)`
+`mkdir -p ~/src; cd ~/src && git clone -b smb-bolus-snooze git://github.com/openaps/oref0.git || (cd oref0 && git checkout smb-bolus-snooze && git pull)`
 
 
 `cd ~/src/oref0 && npm run global-install`
