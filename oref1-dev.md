@@ -1,4 +1,4 @@
-**How to update to oref1 smb-bolus-snooze branch**
+**How to update to oref1 dev branch**
 
 1. First let's remove the oref0 source code and crontab (skip this step if you have a brand new rig and this is the first loop you're installing on it)
 
