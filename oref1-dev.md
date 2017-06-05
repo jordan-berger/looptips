@@ -10,7 +10,7 @@ crontab -r
 
 2. Then pull oref1 code and install
 
-`mkdir -p ~/src; cd ~/src && git clone -b smb-bolus-snooze git://github.com/openaps/oref0.git || (cd oref0 && git checkout smb-bolus-snooze && git pull)`
+`mkdir -p ~/src; cd ~/src && git clone -b dev git://github.com/openaps/oref0.git || (cd oref0 && git checkout dev && git pull)`
 
 
 `cd ~/src/oref0 && npm run global-install`
