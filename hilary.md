@@ -3,7 +3,11 @@
 *******************
 1. Delete your exsiting cron (this helps prevent those annoying rebooting to fix radio error messages after a rebuild)
 
+`cd`
+
 `crontab -r`
+
+`rm -rf myopenaps`
 
 `rm -rf src`
 
