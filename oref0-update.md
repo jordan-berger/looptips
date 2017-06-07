@@ -1,4 +1,4 @@
-** How to update your loop **
+**How to update your loop**
 
 This will preserve all BT pairing and functions.
 
