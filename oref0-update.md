@@ -36,6 +36,7 @@
 * If you want to add pushover to your rig, you need to add these two flags to the end of your runagain script.  Get the values for the your_pushover_user key and your_pushover_API_token by logging into your [Pushover account](http://pushover.net).
 
   `--pushover_user='your_pushover_user_key'`
+  
   `--pushover_token='your_pushover_API_token'`
 ********************
 4. Then run the runagain setup script
