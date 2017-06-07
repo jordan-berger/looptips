@@ -20,10 +20,10 @@
 
 * If you want to add or remove features, those are in the `enable` part of the script...
 
-** autotune is `autotune`
-** AMA is `meal`
-** autosens is `autosens`
-** SMB is `microbolus` (only on dev branch currently)
+  * autotune is `autotune`
+  * AMA is `meal`
+  * autosens is `autosens`
+  * SMB is `microbolus` (only on dev branch currently)
 
 * If you changed phones, changed NS sites, changed pumps, or such...make those changes here too.
 
