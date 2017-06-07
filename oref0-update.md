@@ -38,6 +38,12 @@
   `--pushover_user='your_pushover_user_key'`
   
   `--pushover_token='your_pushover_API_token'`
+  
+As an example, if your final edited version may look like this:
+
+`oref0-setup --dir=/root/myopenaps --serial=123456 --cgm=g4-upload --ns-host=https://mysite.herokuapp.com --api-secret=SecretCodeforYou --tty=/dev/spidev5.1 --enable=' autosens  meal  microbolus  autotune ' --radio_locale='US' --btmac='D0:55:98:07:45:CA' --pushover_token='acoyd149iy2ev' --pushover_user='uq3qt63v43rht14gz9v5'`
+
+
 ********************
 4. Then run the runagain setup script
 
