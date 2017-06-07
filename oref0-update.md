@@ -1,16 +1,17 @@
 **How to update your loop**
 
-This will preserve all BT pairing and functions.
 
 1. Delete your exsiting cron (this helps prevent those annoying rebooting to fix radio error messages after a rebuild)
 
 `crtontab -r`
+
 
 2.  Then let's grab updated oref0 code
 
 For Master branch users:  `cd ~/src/oref0 && git checkout master && git pull && sudo npm install -g oref0`
 
 For Dev branch users: `cd ~/src/oref0 && git checkout dev && git pull` and then `npm run global-install`
+
 
 3.  Edit your runagain file to change anything that you'd like by using either of these commands
 
@@ -25,6 +26,7 @@ autosens is `autosens`
 SMB is `microbolus` (only on dev branch currently)
 
 If you changed phones, changed NS sites, changed pumps, or such...make those changes here too.
+
 
 4. Then run the runagain setup script
 
