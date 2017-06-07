@@ -13,6 +13,7 @@
 * For Dev branch users: 
 
   `cd ~/src/oref0 && git checkout dev && git pull`
+  
   `npm run global-install`
 
 ********************
