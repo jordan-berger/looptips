@@ -42,7 +42,8 @@
 ********************
 5. Once everything gets installed and you answer YES to both of the cron questions, then we will edit your preferences.json
 
-`edit-pref`
+* If you have aliases installed `edit-pref`
+* If you don't have aliases `cd ~/myopenaps && nano preferences.json`
 
 ********************
 Congrats, your loop is updated and your runagain has saved the information for all those.
