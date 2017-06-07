@@ -45,4 +45,4 @@
 `edit-pref`
 
 ********************
-Congrats, your loop is updated to oref1 and your runagain has saved the information for all those.
+Congrats, your loop is updated and your runagain has saved the information for all those.
