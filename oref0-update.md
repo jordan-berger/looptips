@@ -11,8 +11,8 @@
 * For Master branch users:  `cd ~/src/oref0 && git checkout master && git pull && sudo npm install -g oref0`
 
 * For Dev branch users: 
- * `cd ~/src/oref0 && git checkout dev && git pull` and then 
- * `npm run global-install`
+  `cd ~/src/oref0 && git checkout dev && git pull`
+  `npm run global-install`
 
 ********************
 3.  Edit your runagain file to change anything that you'd like by using either of these commands
