@@ -11,6 +11,7 @@
 * For Master branch users:  `cd ~/src/oref0 && git checkout master && git pull && sudo npm install -g oref0`
 
 * For Dev branch users: 
+
   `cd ~/src/oref0 && git checkout dev && git pull`
   `npm run global-install`
 
