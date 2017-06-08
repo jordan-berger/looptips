@@ -16,7 +16,7 @@
 
   `mkdir -p ~/src; cd ~/src && git clone -b smb-script git://github.com/kdisimone/oref0.git || (cd oref0 && git checkout smb-script && git pull)`
   
-  `npm run global-install`
+  `cd ~/src/oref0 && npm run global-install`
 
 ********************
 3.  Edit your runagain file to change anything that you'd like by using either of these commands
