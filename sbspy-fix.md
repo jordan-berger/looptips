@@ -50,6 +50,6 @@ Save the changes and exit the editor
 * `Y` to confirm writing the changes</br>
 * `Enter` to save it with the same file name</br>
 
-**5.  Check that your crontab changes got saved**
+**6.  Check that your crontab changes got saved**
 
 `crontab –l`
