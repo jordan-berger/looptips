@@ -34,13 +34,13 @@ Save the changes and exit the editor
 
 `chmod +x fix_comms_script.sh`
 
-**4. Add a line to crontab to schedule the script to run every 10 minutes enter the crontab editor by entering:**
+**4. Open your crontab editor**
 
 `crontab -e`
 
 (If you get a message asking you to select an editor, choose the number “1”)  
 
-copy and paste the following line onto its own line at bottom of existing crontab lines
+**5. Copy and paste the following line onto its own line at bottom of existing crontab lines:**
 
 `*/10 * * * * /root/fix_comms_script.sh`
 
