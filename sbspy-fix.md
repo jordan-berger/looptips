@@ -24,11 +24,11 @@ then
 fi
 ```
 
-* `Control-X` to exit
+Save the changes and exit the editor
 
-* `Y` to confirm writing the changes
-
-* `Enter` to save it with the same file name
+* `Control-X` to exit</br>
+* `Y` to confirm writing the changes</br>
+* `Enter` to save it with the same file name</br>
 
 3.  Change permissions on the script so that it is executable
 
@@ -44,11 +44,11 @@ copy and paste the following line onto its own line at bottom of existing cronta
 
 `*/10 * * * * /root/fix_comms_script.sh`
 
-* `Control-X` to exit
+Save the changes and exit the editor
 
-* `Y` to confirm writing the changes
-
-* `Enter` to save it with the same file name
+* `Control-X` to exit</br>
+* `Y` to confirm writing the changes</br>
+* `Enter` to save it with the same file name</br>
 
 5.  Check that your crontab changes got saved
 
